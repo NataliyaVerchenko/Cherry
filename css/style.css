@@ -101,7 +101,11 @@ q:before, q:after {
 }
 
 .logo i {
-    color: #ae4b5d;
+
+}
+.icon-searc {
+    background: #ae4b5d url("../images/serch.png") no-repeat center;
+
 }
 
 .form-serch {
@@ -116,11 +120,15 @@ q:before, q:after {
     /*float:left;*/
     position: relative;
 }
+.icon-search{
+
+}
 
 .search input {
     border: 1px solid #ae4b5d;
     background: #353c40;
     border-radius: 5px;
+    box-shadow: -1px 0px 22px 0px #000 inset;
 }
 
 .input {
@@ -441,7 +449,7 @@ table th:first-child {
 .footer___item{
     width:300px;
     float:left;
-    margin 0 auto;
+    margin: 0 auto;
 
 }
 .heading-title-item{
