@@ -323,8 +323,9 @@ aside {
     margin-right: 10px;
 }
 .content-wrapper{
-    margin-top: 20px;
-    margin-bottom: 43px;
+   /* margin-top: 20px;*/
+    padding:10px 5px 43px;
+    background: #ffffff;
     }
 .content-wrapper .post__headline {
     font-size: 22px;
@@ -334,6 +335,10 @@ aside {
 
 .post__headline i {
     color: #982b28;
+    font-weight:700;
+}
+.we-do{
+    margin-bottom: 18px;
 }
 a.red{
 text-decoration: underline;}
@@ -345,8 +350,8 @@ text-decoration: underline;}
 }
 
 .list-items li {
-    margin: 0 10px;
-    display: inline-block;
+      margin: 5px 3px;
+      display: inline-block
 }
 
 /*------------List----------------*/
@@ -425,5 +430,108 @@ table th:first-child {
 
 /********************FOOTER*************************/
 .footer {
-    border-top: 4px solid #9d5259;
+    border-top: 7px solid #9d5259;
+    background:#1d272b;
+    margin-top: -43px;
+}
+.wrapper-footer-inner{
+ padding:15px 30px;
+}
+.footer-inner__item{}
+.footer___item{
+    width:300px;
+    float:left;
+    margin 0 auto;
+
+}
+.heading-title-item{
+    color:#a4b0b9;
+    font-size:20px;
+    text-transform:capitalize;
+}
+.heading-title-item span{
+    text-transform:uppercase;
+}
+.line-title-item{
+    background: #222b2b;
+    height: 1px;
+    margin: 14px 0 18px 0;
+    box-shadow: 0px 0px 1px rgba(245, 242, 242, 0.5);
+    }
+    .middle{
+    padding:0 15px;
+    }
+.info-item{
+    font-size: 14px;
+      padding: 0 5px;
+      }
+
+.info-item p ,.info-item ul {
+   color: gray;
+   display: inline-block;
+   margin-bottom: 15px;
+   margin-right: 10px;
+}
+
+.socials{
+display:inline-block;}
+
+
+.socials__item {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.socials__item a{
+}
+
+.socials__item_tw{
+background: #9d5259 url(../images/tw.png)no-repeat center;
+}
+
+.socials__item_g{
+background: #9d5259 url(../images/g.png)no-repeat center;
+margin:0 5px;
+}
+
+.socials__item_fb{
+background: #9d5259 url(../images/fb.png)no-repeat center;
+}
+
+.icon-clock{
+    width:32px;
+    height:32px;
+    margin-bottom: -11px;
+    display: inline-block;
+    background:url('../images/clock.png') no-repeat center;
+}
+.info-item ul{
+padding: 0 5px;
+}
+.info-item ul li{
+   font-size: 14px;
+    line-height: 18px;
+    margin:10px 0;
+    position: relative;
+
+}
+ .info-item ul .circl:before {
+      content: "\2022";
+      color: #9f5a5c;
+      position: absolute;
+      left: -9px;
+      top: 1px;
+      /* padding-left: 0px; */
+      display: inline-block;
+   }
+  .info-item p strong {
+   font-size: 14px;
+       font-weight: 700;
+       color: #c3cece;}
+.info-item ul {
+   color: gray;
+   display: inline-block;
+/*   margin-bottom: 8px;
+   margin-right: 10px;*/
 }
