@@ -325,17 +325,17 @@ aside {
 /**************BUTTON lorem ipsum*/
 
 .button {
-    margin-top: 8px;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 18px;
-    border: solid 5px #F4F3F2;
-    font-weight: bold;
-    color: #fcf9fa;
-    display: inline-block;
-    background-color: #9f3a32;
-    background-image: linear-gradient(top, #e3002d 0% ,#d40b3a 100%);
+     text-decoration: none;
+     text-align: center;
+     padding: 9px 0;
+     border: solid 5px #F4F3F2;
+     font-weight: bold;
+     color: #fcf9fa;
+     display: inline-block;
+     background-color: #9f3a32;
+     background-image: linear-gradient(top, #e3002d 0% ,#d40b3a 100%);
      box-shadow: 3px 2px 9px #bababa, inset -1px 1px 1px #d6d2d2;
+     width: 185px;
 }
 /*888888888888888888888*/
 
