@@ -99,24 +99,18 @@ q:before, q:after {
     text-transform: uppercase;
     text-decoration: none;
 }
-
 .logo i {
     color: #ae4b5d;
 }
-
 .form-serch {
     float: right;
     margin: 17px 8px;
 }
 
-
-
 .search {
     width: 300px;
-    /*float:left;*/
     position: relative;
 }
-
 .search input {
     border: 1px solid #ae4b5d;
     background: #353c40;
@@ -142,7 +136,6 @@ q:before, q:after {
     top: 0;
     right: 0;
     width: 37px;
-    /* Ñ€Ð°ÑÑ‚ÑÐ³Ð¸Ð²Ð°ÐµÐ¼ ÐºÐ½Ð¾Ð¿ÐºÑƒ Ð½Ð° Ð²ÑÑŽ Ð²Ñ‹ÑÐ¾Ñ‚Ñƒ Ñ„Ð¾Ñ€Ð¼Ñ‹ */
     height: 100%;
     background: #ae4b5d;
     cursor: pointer;
@@ -198,17 +191,19 @@ line-height: 14px;
  }
 
 .banner-bg {
-    background: url("../images/layer-32.png") no-repeat;
+    background: #000 url("../images/layer-32.png") no-repeat center;
     background-size: cover;
 }
 /***********END BANNER***********/
 
 /* START   NAVIGATION*/
 .nav {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    float: right;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ float: right;
+ font-size: 0;
+ display:block;
 }
 
 .nav > li:first-child {
@@ -216,20 +211,22 @@ line-height: 14px;
 }
 
 .nav > li {
-    margin: 8px 25px;
+    margin: 0 20px;
     display: inline-block;
+    font-size: 16px;
 }
 
 .nav > li > a {
     color: #fff;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    font-weight: 800;
+    font-weight: 700;
     text-decoration: none;
+    padding: 10px 5px;
 }
 
 .nav-bg {
-    background: #982b28;
+    background: #930015;
 }
 /*****END   NAVIGATION**************/
 
@@ -239,8 +236,8 @@ line-height: 14px;
 }
 .breadcrumb {
     display: inline-block;
-    margin: 0 0 0 20px;
-    padding: 0;
+    margin: 0;
+    padding: 0  0 0 20px;
     font-size: 0px;
     list-style: none;
 }
@@ -260,7 +257,7 @@ line-height: 14px;
     content: "/\00a0";
 }
 .breadcrumb li a.active {
-    /*   font-size: 10px;*/
+    text-decoration: none;
     color: #ccc;
 }
 /******END**************breadcrumbs*/
@@ -272,9 +269,9 @@ line-height: 14px;
 
 
 aside {
-    margin: -2px 0px 0 22px;
-    width: 215px;
-    float: left;
+   padding: 0px 0px 0 2px;
+   width: 215px;
+   float: left;
 }
 
 .aside-wrapper{
@@ -286,14 +283,13 @@ aside {
     border: 1px solid #d8dbde;
 }
 .aside-wrapper-descr{
-    margin-top: 23px;
+    padding-top: 23px;
     font-size: 11px;
     }
 
 .aside-wrapper-form h3,.aside-wrapper-descr h3 {
-    margin: -7px 0 5px 0;
+    padding: 0 0 5px 0;
     color: #282d33;
-   /* font-family: "Arial - Bold MT";*/
     font-size: 18px;
     font-weight: 600;
 }
@@ -303,7 +299,8 @@ aside {
     box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.1);
     border: 1px solid #fffcfc;
     background-color: #e3e4e5;
-    margin: 8px 0;
+    padding: 4px 3px;
+        padding-left: 3px;
     border-radius: 5px;
     padding-left: 5px;
     color: #757575;
@@ -342,13 +339,13 @@ aside {
 
 /**************CONTENT********************/
 .content {
-    margin-left: 265px;
-    margin-right: 10px;
+    padding-left: 260px;
+    padding-right: 15px;
 }
 .content-wrapper{
-   /* margin-top: 20px;*/
-    padding:10px 5px 43px;
+    padding: 15px;
     background: #ffffff;
+    margin-bottom: 44px;
     }
 .content-wrapper .post__headline {
     font-size: 22px;
@@ -361,10 +358,11 @@ aside {
     font-weight:700;
 }
 .we-do{
-    margin-bottom: 18px;
+    padding-bottom: 18px;
+    margin-top: -16px;
 }
 .we-do p{
-    padding: 0 5px;
+/*    padding: 0 5px;*/
 }
 a.red{
 text-decoration: underline;
@@ -377,18 +375,20 @@ text-decoration: underline;
 }
 
 .list-items li {
-      margin: 5px 3px;
+     /* padding: 5px 3px;*/
       display: inline-block
 }
 .title-item{
-color: #282d33;
-font-family: 'Open Sans', sans-serif;
-font-size: 18px;
-font-weight: bold;
-line-height: 14px;
-padding: 10px 0;
-margin: 0 4px;
+    color: #282d33;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 10px 0;
+
 }
+.midle{
+margin:0 19px;}
 
 /*------------List----------------*/
 .list {
@@ -401,7 +401,7 @@ margin: 0 4px;
 .list-col {
     float: left;
     width: 200px;
-    margin-left: 21px;
+    padding: 0 15px;
 }
 
 .list-col ul {
@@ -433,7 +433,7 @@ ul li .list-col-inner{
 /*-----------Table-------------*/
 section h2 {
     color: #a5b1ba;
-    margin-bottom: 2px;
+    margin-bottom: 20px;
 }
 
 table {
